@@ -32,7 +32,7 @@ _Sistema simples que a partir de duas variaveis, peso e altura, calcula o índic
 **Tela inicial:**
 
 
-<img src="/img/calculando.png">
+<img src="/img/inicio.png">
 
 
 
