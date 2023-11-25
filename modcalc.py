@@ -1,32 +1,39 @@
+class CalculaImc():
+    def __init__(self, imc = 0):
+        self.imc = imc
 
-class Imc():
-    def __init__(self, valor=0):
-        self.valor = valor
 
-
-    def imc(self, *, p, a):
-        """Calcula o indice de massa corporal"""
+    def imc_calc(self, *, peso, altura):
+        """
+        Calcula o indice de massa corporal.
+        """
         try:
-            resultado = float(p) / (float(a) ** 2)
-            self.valor = resultado
+            resultado = float(peso) / (float(altura) ** 2)
+            self.imc = resultado
+        
         except:
-            self.valor = 0
+            self.imc = 0
+        
+
 
     @staticmethod
     def ckeck_number(numero):
-        """Verifica o resultado de input"""
+        """
+        Verifica o resultado de input.
+        """
         if len(numero) == 0:
-            return "cod1"
+            return 0
         else:
             return numero.replace(" ", "")
 
 
     @staticmethod
-    def fator_imc(*, n):
-        """Retorna a classe do imc de acordo com um numero"""
-
+    def classificacao(*, n: float):
+        """
+            Retorna a classificacão do imc.
+        """
         if n > 2.0 and n <= 18.5:
-            return "Magreza"
+            return "Abaixo do Peso\nNormal"
         
         elif n == 0:
             return "Dados\ninválidos!" 
@@ -45,24 +52,3 @@ class Imc():
         
         elif n >= 40.0:
             return "Obesidade\nGrau 3"
-    
-
-""" simulado
-while True:
-
-    print(fator_imc(float(input("N :"))))
-
-
-print(fator_imc(n=imc(p=75.0, a=1.67)))
-print(imc(p=75, a=1.67))
-
-teste = Imc()
-
-print(teste.valor, teste.titulo)
-
-teste.imc(p=75, a=1.67)
-
-print(teste.fator_imc(n=teste.valor))
-
-print(teste.valor, teste.titulo)
-"""

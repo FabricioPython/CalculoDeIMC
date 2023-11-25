@@ -6,16 +6,16 @@ import collections
 
 logging.basicConfig(level=logging.INFO, filename="programa.txt", format="%(asctime)s | %(levelname)s | %(message)s")
 
-status = Imc()
+Imc = CalculaImc()
 
 
 
 def aux_imc():
-    status.imc(p=status.ckeck_number(peso.get()), a=status.ckeck_number(altura.get()))
-    st = status.fator_imc(n=status.valor)
-    categoria.configure(text=st)
-    numero.configure(text=f"{status.valor:.2f}")
-    logging.info(f"Categoria -> {st}  -  IMC -> {status.valor:.2f}")
+    Imc.imc_calc(peso=Imc.ckeck_number(peso.get()), altura=Imc.ckeck_number(altura.get()))
+    classificacao = Imc.classificacao(n=Imc.imc)
+    categoria.configure(text=classificacao)
+    numero.configure(text=f"{Imc.imc:.2f}")
+    logging.info(f"Peso:{peso.get()} : Altura:{altura.get()} -> Categoria -> {classificacao} -> IMC -> {Imc.imc:.2f}")
 
 
 app = customtkinter.CTk()
