@@ -32,8 +32,7 @@ _Sistema simples que a partir de duas variaveis, peso e altura, calcula o índic
 **Tela inicial:**
 
 
-
-![inicio](C:\Users\fkcom\Desktop\inicio.png)
+![inicio](img\inicio.png)
 
 
 
@@ -45,7 +44,7 @@ _Sistema simples que a partir de duas variaveis, peso e altura, calcula o índic
 
 
 
-![calculando](C:\Users\fkcom\Desktop\calculando.png)
+![calculando](img\calculando.png)
 
 
 
@@ -55,4 +54,4 @@ _Sistema simples que a partir de duas variaveis, peso e altura, calcula o índic
 
 
 
-![falls](C:\Users\fkcom\Desktop\falls.png)
+![falls](img\falls.png)
