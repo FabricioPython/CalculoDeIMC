@@ -1,0 +1,142 @@
+{
+    "_default": {
+        "1": {
+            "Altura": "1.75",
+            "Categoria": "Normal",
+            "IMC": "22.857142857142858",
+            "Peso": "70"
+        },
+        "10": {
+            "Altura": "1.75",
+            "Categoria": "Obesidade\nGrau 2",
+            "IMC": "37.55102040816327",
+            "Peso": "115"
+        },
+        "11": {
+            "Altura": "1.75",
+            "Categoria": "Abaixo do Peso\nNormal",
+            "IMC": "16.3265306122449",
+            "Peso": "50"
+        },
+        "12": {
+            "Altura": "1.75",
+            "Categoria": "Abaixo do Peso\nNormal",
+            "IMC": "17.959183673469386",
+            "Peso": "55"
+        },
+        "13": {
+            "Altura": "1.75",
+            "Categoria": "Normal",
+            "IMC": "19.591836734693878",
+            "Peso": "60"
+        },
+        "14": {
+            "Altura": "1.67",
+            "Categoria": "Sobrepeso",
+            "IMC": "26.89232313815483",
+            "Peso": "75"
+        },
+        "15": {
+            "Altura": "1.67",
+            "Categoria": "Sobrepeso",
+            "IMC": "25.099501595611173",
+            "Peso": "70"
+        },
+        "16": {
+            "Altura": "1.67",
+            "Categoria": "Sobrepeso",
+            "IMC": "27.60945175517229",
+            "Peso": "77"
+        },
+        "17": {
+            "Altura": "1.67",
+            "Categoria": "Normal",
+            "IMC": "24.740937287102444",
+            "Peso": "69"
+        },
+        "18": {
+            "Altura": "1.57",
+            "Categoria": "Normal",
+            "IMC": "20.28479857195018",
+            "Peso": "50"
+        },
+        "19": {
+            "Altura": "1.57",
+            "Categoria": "Normal",
+            "IMC": "22.313278429145196",
+            "Peso": "55"
+        },
+        "2": {
+            "Altura": "1.75",
+            "Categoria": "Normal",
+            "IMC": "24.489795918367346",
+            "Peso": "75"
+        },
+        "20": {
+            "Altura": "1.57",
+            "Categoria": "Normal",
+            "IMC": "19.067710657633167",
+            "Peso": "47"
+        },
+        "21": {
+            "Altura": "1.57",
+            "Categoria": "Normal",
+            "IMC": "24.341758286340216",
+            "Peso": "60"
+        },
+        "22": {
+            "Altura": "1.57",
+            "Categoria": "Sobrepeso",
+            "IMC": "26.775934114974238",
+            "Peso": "66"
+        },
+        "23": {
+            "Altura": "1.57",
+            "Categoria": "Sobrepeso",
+            "IMC": "28.398718000730252",
+            "Peso": "70"
+        },
+        "3": {
+            "Altura": "1.75",
+            "Categoria": "Sobrepeso",
+            "IMC": "25.79591836734694",
+            "Peso": "79"
+        },
+        "4": {
+            "Altura": "1.75",
+            "Categoria": "Sobrepeso",
+            "IMC": "27.755102040816325",
+            "Peso": "85"
+        },
+        "5": {
+            "Altura": "1.75",
+            "Categoria": "Sobrepeso",
+            "IMC": "29.714285714285715",
+            "Peso": "91"
+        },
+        "6": {
+            "Altura": "1.75",
+            "Categoria": "Obesidade\nGrau 1",
+            "IMC": "31.020408163265305",
+            "Peso": "95"
+        },
+        "7": {
+            "Altura": "1.75",
+            "Categoria": "Obesidade\nGrau 1",
+            "IMC": "32.326530612244895",
+            "Peso": "99"
+        },
+        "8": {
+            "Altura": "1.75",
+            "Categoria": "Obesidade\nGrau 1",
+            "IMC": "32.6530612244898",
+            "Peso": "100"
+        },
+        "9": {
+            "Altura": "1.75",
+            "Categoria": "Obesidade\nGrau 1",
+            "IMC": "34.285714285714285",
+            "Peso": "105"
+        }
+    }
+}

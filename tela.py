@@ -1,7 +1,7 @@
 import customtkinter
 from modcalc import *
 import logging
-import collections
+from config_banco import database
 
 
 logging.basicConfig(level=logging.INFO, filename="programa.txt", format="%(asctime)s | %(levelname)s | %(message)s")
@@ -15,8 +15,7 @@ def aux_imc():
     classificacao = Imc.classificacao(n=Imc.imc)
     categoria.configure(text=classificacao)
     numero.configure(text=f"{Imc.imc:.2f}")
-    logging.info(f"Peso:{peso.get()} : Altura:{altura.get()} -> Categoria -> {classificacao} -> IMC -> {Imc.imc:.2f}")
-
+    database.insert({"Peso":f"{peso.get()}", "Altura":f"{altura.get()}", "IMC":f"{Imc.imc}", "Categoria":f"{classificacao}"})
 
 app = customtkinter.CTk()
 app.geometry("630x370")
