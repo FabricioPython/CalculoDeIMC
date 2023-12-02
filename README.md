@@ -32,9 +32,7 @@ _Sistema simples que a partir de duas variaveis, peso e altura, calcula o índic
 **Tela inicial:**
 
 
-
-![inicio](C:\Users\fkcom\Desktop\inicio.png)
-
+<img src="/img/inicio.png">
 
 
 
@@ -45,7 +43,7 @@ _Sistema simples que a partir de duas variaveis, peso e altura, calcula o índic
 
 
 
-![calculando](C:\Users\fkcom\Desktop\calculando.png)
+<img src="/img/calculando.png">
 
 
 
@@ -54,5 +52,4 @@ _Sistema simples que a partir de duas variaveis, peso e altura, calcula o índic
 **Tela de Falha, após erro de digitação:**
 
 
-
-![falls](C:\Users\fkcom\Desktop\falls.png)
+<img src="/img/falls.png">
